@@ -1,7 +1,10 @@
-ExpertElicitation
-=================
+# ExpertElicitation
 
-h2. Citation and Licensing
+Thanks for taking an interest in my expert elicitation work.  
+
+Please read this before making use of the R code and data set.
+
+## Citation and Licensing
 
 R code and dataset to accompany Energy Policy paper title "An expert elicitation of climate, energy and economic uncertainties".
 
@@ -11,7 +14,7 @@ Note that any use of this work must be accompanied by an attribution, preferably
 
 Usher, W. & Strachan, N., 2013. An expert elicitation of climate, energy and economic uncertainties., Energy Policy, 61, pp.811–821. Available at: http://dx.doi.org/10.1016/j.enpol.2013.06.110
 
-h2. Use of R code
+## Use of R code
 
 The R code is provided with no support and is unfortunately of a rather typical scientist standard i.e. poorly commented and inefficient.  It got the job done.
 
@@ -19,16 +22,18 @@ You are welcome to make use of the code as best you can, licensing notwithstandi
 
 I will update the code as time goes on, and intend to make it more general and applicable to datasets other than that provided in data.txt.
 
-h2. Contents of the repository
+Before using each .R file, be sure to update the working directory line ` setwd("/Users/Will2/repository/expertelicitation")` to that relevant for your own system.
+
+## Contents of the repository
 
 The repository contains the following files:
 
 * 3 .R files which contain (largely duplicated) code that plot
-* * The weighted pool of oil price
-* * Box plots of all six parameters investigated
-* * Density and box plots of all six parameters
+    * The weighted pool of oil price
+    * Box plots of all six parameters investigated
+    * Density and box plots of all six parameters
 * 4 .txt files in tab-delimited format that contain data
-* * Plot labels
-* * Weights for computing the weighted pool
-* * Categories
-* * The main data file which includes all the distribution data
+    * Plot labels
+    * Weights for computing the weighted pool
+    * Categories
+    * The main data file which includes all the distribution data
