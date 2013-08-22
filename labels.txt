@@ -1,0 +1,8 @@
+param	title	xaxis	yaxis	subtitle
+Pop	UK Population in 2030	(million)	p(x)	
+GDP	Av. annual growth in UK GDP	(av. % annual change)	p(x)	2010 to 2030
+GHG	Price of GHG credits	($/tCO2e)	p(x)	available to the UK in 2030
+Oil	Long-term price of oil in 2030	($/barrel)	p(x)
+Elec	Cost of low-carbon electricity in 2030	(US$ cents/kWh)	p(x)
+Temp	Average main room temp in 2030	(degrees C)	p(x)	during heating season
+calib	Length of the Moscow Underground Network	(km)	p(x)
